@@ -1,0 +1,52 @@
+# 项目记忆目录（按惯例忽略）
+.workbuddy/
+# 部署产物目录
+web_dist/
+# 数据备份
+*.bak
+*.fixbak
+# 原始 Excel 源表（体积大，data.js 为其产物）
+excel/
+# Office 临时锁文件
+~$*
+# 一次性调试/诊断脚本（非核心）
+_debug*.py
+_diag*.py
+_diag2.py
+_scan*.py
+_inspect*.py
+_inspect_tijian.py
+_inspect_xlsx.py
+_loc*.py
+_apply*.py
+_parse*.py
+_verify_admit.py
+_verify_admit_v4.py.bak
+look_raw.py
+debug2.py
+profile.py
+profile2.py
+merge_applicants.py
+validate.py
+clean.py
+inspect.py
+# 一次性临时脚本（其他扩展名）
+_analyze.js
+_apply_recover.js
+_restore_review.js
+_stat_fields.js
+_fields_out.txt
+# Python 缓存
+__pycache__/
+*.pyc
+# 日志与临时文本输出
+*.log
+*.txt
+# 中间 JSON 产物
+_miss_locate.json
+_recover.json
+_sy_scores_2026.json
+# 临时测试脚本
+test.js
+# 早期/重复差异表（保留 diff_table_v2.xlsx）
+diff_table.xlsx
